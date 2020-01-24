@@ -12,3 +12,4 @@ Suggests:
     knitr
 VignetteBuilder: knitr
 RoxygenNote: 7.0.2
+URL: https://github.com/sjansson/MATH-4793
