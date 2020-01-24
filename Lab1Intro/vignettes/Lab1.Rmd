@@ -17,9 +17,16 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
+```{r setup }
 library(Lab1Intro)
 ```
+
+## Links
+
+[Documentation about package making](http://r-pkgs.had.co.nz/vignettes.html)
+
+[My Github repository](https://github.com/sjansson/MATH-4793)
+
 
 ## These are the formulae which are executed by the functions found in this package:
 
