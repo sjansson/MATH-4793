@@ -1,0 +1,43 @@
+---
+title: "princeComp"
+author: "Stephanie Jansson"
+date: "4/16/2020"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, message = F, warning = F}
+library(PrinceComp)
+```
+
+## Example Using iris dataset
+
+### prince Function
+```{r warning = F, message = F}
+## Run PCA
+pca <- prince(X = iris, cor = F); pca
+```
+
+### Plotting Output of prince function
+```{r warning = F, message = F}
+## Plot
+plot(pca)
+```
+
+### shinyPrince Function
+```{r eval = F}
+### run SHINY app; not going to evaluate in this vignette
+shinyPrince(X = iris)
+```
+
